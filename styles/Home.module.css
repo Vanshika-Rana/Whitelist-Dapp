@@ -6,7 +6,7 @@
     align-items: center;
     font-family: 'Montserrat', sans-serif;
     background-color: #000;
-    background-image:url(../images/bg-img.png);
+    background-image:url("../images/bg-img.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: right;
@@ -55,6 +55,11 @@
     color: #fff;
     
 } 
+.image{
+    width: 100%;
+    height: auto;
+    margin-bottom: 2rem;
+}
 
 @media (max-width: 900px) {
     .heading{
